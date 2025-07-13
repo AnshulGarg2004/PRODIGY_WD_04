@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const nameText = nameElement.textContent.trim();
   const workText = workElement.textContent.trim();
 
-  const typingSpeed = 100;    // faster typing (40ms per char)
-  const pauseBetween = 200;  // shorter pause between name and work and loops
+  const typingSpeed = 100;   
+  const pauseBetween = 200;  
 
   function typeText(element, text, callback) {
     let index = 0;
